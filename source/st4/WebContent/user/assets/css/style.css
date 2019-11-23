@@ -1,0 +1,180 @@
+body {
+    background: #f8f8f8;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.page-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height:58%;
+  transform: translate3d(-50%, -50%, 0);/*æ”÷–*/
+  z-index: 99;
+  color: white;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+form {
+    position: relative;
+    width: 305px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+input{
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0 15px;
+    background: rgba(45,45,45,.15);
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,.15);
+    font-size: 14px;
+    color: white;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+°°°°color:#999;font-size:14px;
+°°°°}
+
+
+form .repwd{
+       width: 160px;
+       float: left;
+       height: 42px;
+       border: 1px solid rgba(255,255,255,.15);
+}
+
+form img{
+    margin-top: 27px;
+    float: right;
+    margin-right:8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px 0 rgba(5,5,5,0.1) inset;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+
+form .bottom{
+    margin-top: 10px;
+}
+
+form .bottom a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+form .bottom a:hover{
+    color: blue;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 44px;
+    margin-top: 25px;
+    padding: 0;
+    background: #ef4300;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ff730e;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+
+
+.mark{
+    position: absolute;
+    background:rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mark ul{
+    display: block;
+    width: 400px;
+    height: 370px;
+    background: white;
+    margin:120px auto;
+    text-align: center;
+    z-index: 99999;
+    opacity: 1;
+    border-radius: 10px;
+    position:relative;
+  }
+  
+.mark ul li{
+   list-style: none;
+}
+ .mark ul .top{
+    height: 40px;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    line-height: 40px;
+    text-indent: 0.5em;
+    color: #494E9F;
+  }
+ 
+  .mark ul img{
+    float: right;
+    border-radius:3px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+ .mark ul img:hover{
+    opacity: 0.6;
+    background: blue;
+  }
+  .mark ul li{
+    color: #494E9F;
+    text-align: center;
+  }
+ .mark ul .text{
+    width: 100%;
+    height:100%;
+   }
+
+ .mark ul .text iframe{
+    margin-top: 2px;
+    width: 100%;
+    height:90%;
+ }
+
+
+
+.mark ul li form button{
+    width: 80px;
+    height: 40px;
+    background: blue;
+    margin-left: 20px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}

@@ -1,0 +1,74 @@
+td {
+	font-size: 10pt;	color: #000000;
+}
+a:hover {
+	font-size: 10pt;	color: #FF6600;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+.img1{
+	border:1;
+}
+.blue {
+	font-size: 9pt;	color: #034683;
+}
+.bgcolor {
+	font-size: 9pt;	color: #1980DB;
+}
+.btn_grey {
+	font-family: "ËÎÌו";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
+}
+.btn_bg_manageLogin{
+	background-image:url(../images/login_btn_bg.gif); border:#436E9B thin 1px;
+	width:51px;
+	height:20px;padding:4px;
+	color:#000000; outline-color:#FFFFFF
+}
+input{
+	font-family: "ËÎÌו";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+	width: 130px;
+    height:23px;
+
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:white;
+}
+.textarea {
+	font-family: "ËÎÌו";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.tableBorder {
+	border: #89B7D8 1px solid
+}
+
+.hidden_a_line{
+	noline:expression(this.onfocus=this.blur);
+}
+.tableBorder_bold {
+	border:2px solid rgba(97,160,204,0.6);
+	padding:5px;
+}
+
+.tableBorder_gray {
+	border: #C7C7C7 1px solid
+}
+.table1{
+background-color:#AEAEAE;
+padding:5px;
+}
